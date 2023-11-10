@@ -3,22 +3,22 @@
         flex-direction: column;
     }
     
-    .container__images {
+    .container-images {
         display: none;
     }
       
-      .carousel__image {
+      .carousel-image {
         display: none;
     }
 
-    .container__login {
+    .container-login {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .login__signup {
+    .login-signup {
         width: 350px;
     }
 }

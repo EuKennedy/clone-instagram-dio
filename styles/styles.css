@@ -28,12 +28,12 @@ body {
   bottom: 0;
 }
 
-.logo__loading {
+.logo-loading {
   width: 80px;
   margin-top: 250px;
 }
 
-.logoname__loading {
+.logoname-loading {
   width: 80px;
   margin-top: 250px;
 }
@@ -47,11 +47,11 @@ body {
   margin-bottom: 5px;
 }
 
-.container__images {
+.container-images {
   position: relative;
 }
 
-.carousel__image {
+.carousel-image {
   opacity: 0;
   position: absolute;
   right: 59px;
@@ -63,7 +63,7 @@ body {
   opacity: 1;
 }
 
-.login__signin {
+.login-signin {
   position: relative;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ body {
   margin-bottom: 10px;
 }
 
-.instagram__logo {
+.instagram-logo {
   width: 70%;
   font-size: 16px;
   margin-top: 40px;
@@ -107,28 +107,28 @@ body {
   border: 1px solid #000000;
 }
 
-#user:valid ~ .email__label,
-#password:valid ~ .password__label,
-#user:focus ~ .email__label,
-#password:focus ~ .password__label {
+#user:valid ~ .email-label,
+#password:valid ~ .password-label,
+#user:focus ~ .email-label,
+#password:focus ~ .password-label {
   transform: scale(0.8) translate(-15%, -100%);
 }
 
-.email__label,
-.password__label {
+.email-label,
+.password-label {
   position: absolute;
   pointer-events: none;
   transition: 0.5s;
 }
 
-.email__label {
+.email-label {
   top: 149px;
   right: 105px;
   font-size: 12px;
   color: #909090;
 }
 
-.password__label {
+.password-label {
   right: 265px;
   font-size: 12px;
   color: #909090;
@@ -168,7 +168,7 @@ button {
   width: 100%;
 }
 
-.separator__ou {
+.separator-ou {
   position: absolute;
   text-align: center;
   background-color: #fafafa;
@@ -178,7 +178,7 @@ button {
   padding: 0px 20px;
 }
 
-.login__fboption {
+.login-fboption {
   display: flex;
   flex-direction: column;
 }
@@ -191,16 +191,16 @@ button {
   margin-bottom: 20px;
 }
 
-.fb__join {
+.fb-join {
   display: flex;
 }
 
-.facebook__icon img {
+.facebook-icon img {
   width: 15px;
   margin-right: 5px;
 }
 
-.facebook__name {
+.facebook-name {
   font-size: 14px;
   font-weight: 700;
   color: #385185;
@@ -208,13 +208,13 @@ button {
   cursor: pointer;
 }
 
-.facebook__forgot {
+.facebook-forgot {
   font-size: 12px;
   color: #385185;
   cursor: pointer;
 }
 
-.login__signup {
+.login-signup {
   display: flex;
   justify-content: center;
   font-size: 14px;
@@ -229,25 +229,25 @@ a {
   color: #0095f6;
 }
 
-.login__getapp {
+.login-getapp {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.getapp__call {
+.getapp-call {
   font-size: 14px;
   padding: 20px 0px;
 }
 
-.app__store,
-.google__play {
+.app-store,
+.google-play {
   width: 136px;
   cursor: pointer;
 }
 
-.app__store {
+.app-store {
   margin-right: 6px;
 }
 
@@ -275,7 +275,7 @@ li {
   cursor: pointer;
 }
 
-.copyright {
+.direitos {
   display: flex;
   justify-content: center;
   font-size: 12px;

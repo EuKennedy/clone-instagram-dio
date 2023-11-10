@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
 
 let time = 5000;
 let currentIndex = 0;
-let images = document.querySelectorAll(".carousel__image");
+let images = document.querySelectorAll(".carousel-image");
 let max = images.length;
 
 const nextImage = () => {
